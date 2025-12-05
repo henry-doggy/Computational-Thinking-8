@@ -1,0 +1,5 @@
+print("What do you call a fake spegehtie?")
+input()
+print("An imposta!")
+input(------------------)
+print(knock knock)
