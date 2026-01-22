@@ -31,7 +31,7 @@ elif answer4 == "C":
 answer5 = input ("are you canadian? A for yes and B for no ")
 if answer5 == "A" or "a":
     skiing_points += 1
-elif answer5 == "B" or "b":
+
     soccer_points += 1
     basketball_points += 1
 if basketball_points > skiing_points and basketball_points > soccer_points:
