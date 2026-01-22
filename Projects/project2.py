@@ -9,7 +9,7 @@ if answer1 == "A" or "a":
 elif answer1 == "B":
     soccer_points += 1
 answer2 = input ("what type of sports do you like watching A, Xgames, B, indoor Sports, or C, outdoor sports, ")
-if answer2 == "A": 
+if answer2 == "A" or "B": 
     skiing_points +=1
 elif answer2 == "B":
     basketball_points += 1
@@ -26,7 +26,7 @@ if answer4 == "A":
     skiing_points += 1
 elif answer4 == "B":
     basketball_points += 1
-elif answer4 == "C":
+elif answer4 == "C"or"A":
     soccer_points += 1
 answer5 = input ("are you canadian? A for yes and B for no ")
 if answer5 == "A" or "a":

@@ -2304,8 +2304,8 @@ for i in range(6):
     # Guess a word
     guess_word = input()
     output = ""
-
-    # First letter (in python, counting starts at 0 not 1)
+    
+    # First let ter (in python, counting starts at 0 not 1)
     if guess_word[0] == hidden_word[0]:
         output += "🟩"
     elif guess_word[0] in hidden_word:
