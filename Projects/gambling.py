@@ -6,7 +6,7 @@ from utils import *
 for i in range(10):
      
      money = 5
-     print("you have {moey} dollars")
+     print("you have {money} dollars")
      guess=input ("who do u think will win? 1,2,3,or 4?")
      bet = input ("how much money do you want to bet?")
      money -= bet 

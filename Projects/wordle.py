@@ -2305,6 +2305,17 @@ for i in range(6):
     guess_word = input()
     output = ""
     
+    """
+    for n in range(5):
+       # First let ter (in python, counting starts at 0 not 1)
+        if guess_word[n] == hidden_word[n]:
+            output += "🟩"
+        elif guess_word[n] in hidden_word:
+            output += "🟨"
+        else:
+            output += "⬛"
+    """
+
     # First let ter (in python, counting starts at 0 not 1)
     if guess_word[0] == hidden_word[0]:
         output += "🟩"

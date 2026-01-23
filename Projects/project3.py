@@ -5,11 +5,7 @@ from utils import *
 
 for i in range(10):
      
-     money == 5
-     money = input ("you have {money} dollars")
-     guess=input ("who do u think will win? 1,2,3,or 4?")
-     bet = input ("how much money do you want to bet?")
-     money -= bet 
+     
     # Section 1 - Variables
     # TODO - add starting values for all the variables
      x1 =-200
@@ -53,27 +49,14 @@ for i in range(10):
     # TODO - write another elif for player 3 and player 4
      if x1 >= x2 and x1 >= x3 and x1 >= x4:
         print("player 1 wins!")
-        if guess=="1":
-            print("you guessed right!")
-            money += bet*2
-        else:
-            money -= bet*2
      elif x2 >= x1 and x2 >= x3 and x2 >= x4:
          print("player 2 wins!")
-         if guess=="2":
-            print("you guessed right!")
-            money += bet*2
-         else:
-            money -= bet*2
+         
      elif x3 >= x2 and x3 >= x1 and x3 >= x4:
          print ("player 3 wins!")
-         if guess=="3":
-            print("you guessed right!")
-            money += bet*2
-         else:
-            money -= bet*2
+         
      elif x4 >= x2 and x4 >= x3 and x4 >= x1:
          print ("player 4 wins!")
-         if guess=="4":
-            print("you guessed right!")
+         
+    
 turtle.exitonclick()
