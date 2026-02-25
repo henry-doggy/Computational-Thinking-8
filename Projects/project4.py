@@ -29,8 +29,8 @@ window.onkeypress(make_icecream, "space")
 # TODO - make a second    control
 def buy_machine():
     global icecream, machines
-    y = 100 +20* machines
-    x = 100 
+    y = (100,200)
+    x = (100) * machines
     create_sprite("image.gif")
     if icecream >= 10:
         machines += 1
