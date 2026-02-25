@@ -99,5 +99,5 @@ elif s2_tags > s1_tags:
     print ("red wins!!")
 elif s2_tags == s1_tags:
     print ("red wins!")
-
+#the goal of the game is to get more tags than the other person but red just needs the tags to be equal because they always start with a one point defisate. 
 print("Game Over")
